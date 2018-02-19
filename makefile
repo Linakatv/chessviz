@@ -1,2 +1,2 @@
-lina.o: lina.c
-	gcc -Wall lina.c -o lina.o
+lina: lina.c
+	gcc -Wall lina.c -o lina
