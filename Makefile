@@ -1,4 +1,6 @@
 all: bin/program
+
+run: bin/program
 	./bin/program
 
 bin/program: build/board.o build/output_board.o build/makemove.o build/checks.o
