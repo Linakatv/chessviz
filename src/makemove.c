@@ -70,7 +70,7 @@ int swap(Board *array_chess, int index_1, int index_2, char flag_swap, int prior
 
 	return 1;
 	} else {
-		printf("Долбаеб\n");
+		printf("Не тот игрок\n");
 		return priority;
 		//printf("%d\n", priority);
 	}
